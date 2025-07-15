@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/adugna/static/css/main.7e5f210c.css",
+    "main.js": "/adugna/static/js/main.0dfcd391.js",
+    "index.html": "/adugna/index.html",
+    "main.7e5f210c.css.map": "/adugna/static/css/main.7e5f210c.css.map",
+    "main.0dfcd391.js.map": "/adugna/static/js/main.0dfcd391.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e5f210c.css",
+    "static/js/main.0dfcd391.js"
+  ]
+}
