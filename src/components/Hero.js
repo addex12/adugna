@@ -22,13 +22,7 @@ const Hero = () => {
         </div>
         <div className="hero-image">
           <div className="profile-image">
-            <div className="image-placeholder">
-              <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="100" cy="100" r="100" fill="#3B82F6"/>
-                <circle cx="100" cy="75" r="25" fill="white"/>
-                <circle cx="100" cy="150" r="40" fill="white"/>
-              </svg>
-            </div>
+            <img src="/profile-photo.svg" alt="Adugna Gizaw Sutuma" className="profile-img" />
           </div>
         </div>
       </div>
