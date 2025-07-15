@@ -3,10 +3,12 @@ Adugna Gizaw Sutuma - CV
 Professional Information:
 Name: Adugna Gizaw Sutuma
 Role: IT Manager | Sage 300 ERP Certified Consultant
-Email: addisu.gizaw@gmail.com
-Phone: +251911525070
+Email: gizawadugna@gmail.com
+Phone: +251 911144168
 Location: Addis Ababa, Ethiopia
-LinkedIn: https://www.linkedin.com/in/addex12
+Website: https://orbalia.pythonanywhere.com
+Credly: https://www.credly.com/users/adugnagizaw
+LinkedIn: https://www.linkedin.com/in/eleganceict
 
 Experience:
 9+ years of expertise in cybersecurity, data analytics, and MLOps. 
