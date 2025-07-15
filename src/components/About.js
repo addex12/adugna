@@ -11,36 +11,37 @@ const About = () => {
         
         <div className="about-content">
           <div className="about-text">
-            <h3>Hello! I'm Adugna</h3>
+            <h3>Hello! I'm Adugna Gizaw Sutuma</h3>
             <p>
-              I'm a passionate full-stack developer with a strong background in creating 
-              web applications that solve real-world problems. My journey in programming 
-              started with curiosity and has evolved into a career dedicated to crafting 
-              efficient, scalable, and user-friendly solutions.
+              I'm an experienced IT Manager with over 9 years of expertise in cybersecurity, 
+              data analytics, and MLOps. Currently serving as IT Manager at Flipper International School (FIS) 
+              in Addis Ababa, Ethiopia, I specialize in ERP systems, server infrastructure, and network management.
             </p>
             <p>
-              I specialize in modern web technologies and enjoy working on projects that 
-              challenge me to learn and grow. Whether it's developing a complex web application 
-              or optimizing existing systems, I approach each project with creativity and 
-              attention to detail.
+              I hold multiple globally recognized certifications including Google IT Support Professional, 
+              Google Cybersecurity Professional, IBM Project Management Professional, and Sage 300 ERP 
+              Certified Consultant. Currently pursuing MSc in Data Science at Addis Ababa University and 
+              MSc in Project Management at Florida University Southeast.
             </p>
             <p>
-              When I'm not coding, you can find me exploring new technologies, contributing 
-              to open-source projects, or sharing knowledge with the developer community.
+              Throughout my career at organizations like The Pharo Foundation and Beonline ICT Solutions PLC, 
+              I've successfully improved IT infrastructure, reduced downtime, and trained over 200 students in 
+              essential ICT skills. I'm passionate about leveraging technology to drive digital transformation 
+              and building IT talent.
             </p>
             
             <div className="about-stats">
               <div className="stat">
-                <span className="stat-number">50+</span>
-                <span className="stat-label">Projects Completed</span>
-              </div>
-              <div className="stat">
-                <span className="stat-number">3+</span>
+                <span className="stat-number">9+</span>
                 <span className="stat-label">Years Experience</span>
               </div>
               <div className="stat">
-                <span className="stat-number">100+</span>
-                <span className="stat-label">Happy Clients</span>
+                <span className="stat-number">4</span>
+                <span className="stat-label">Major Certifications</span>
+              </div>
+              <div className="stat">
+                <span className="stat-number">200+</span>
+                <span className="stat-label">Students Trained</span>
               </div>
             </div>
           </div>

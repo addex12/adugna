@@ -6,68 +6,68 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution built with React and Node.js, featuring user authentication, payment integration, and admin dashboard.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      category: "fullstack",
+      title: "Flipper International School IT Infrastructure",
+      description: "Currently managing comprehensive IT infrastructure at FIS, overseeing ERP systems, cybersecurity implementations, and cross-departmental IT initiatives.",
+      technologies: ["Sage 300 ERP", "Network Security", "Infrastructure Management", "Cybersecurity"],
+      category: "management",
       image: "/api/placeholder/400/300",
-      github: "https://github.com/adugna",
-      demo: "https://demo.example.com",
+      github: "https://github.com/addex12",
+      demo: "https://orbalia.pythonanywhere.com",
       featured: true
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      technologies: ["React", "Firebase", "Material-UI", "Socket.io"],
-      category: "frontend",
+      title: "Pharo Foundation ICT Training Program",
+      description: "Developed and delivered comprehensive ICT training program, successfully training over 200 students in essential technology skills while managing IT infrastructure.",
+      technologies: ["ICT Training", "Curriculum Development", "Student Management", "IT Infrastructure"],
+      category: "education",
       image: "/api/placeholder/400/300",
-      github: "https://github.com/adugna",
-      demo: "https://demo.example.com",
+      github: "https://github.com/addex12",
+      demo: "https://orbalia.pythonanywhere.com",
       featured: true
     },
     {
       id: 3,
-      title: "Weather Dashboard",
-      description: "A responsive weather application that displays current weather conditions and forecasts for multiple cities with beautiful animations.",
-      technologies: ["JavaScript", "CSS3", "OpenWeather API", "Chart.js"],
-      category: "frontend",
+      title: "Beonline ICT Solutions - Digital Transformation",
+      description: "Led digital transformation initiatives, implementing new technology strategies and conducting employee training programs on emerging technologies.",
+      technologies: ["Digital Strategy", "Technology Implementation", "Employee Training", "Process Optimization"],
+      category: "management",
       image: "/api/placeholder/400/300",
-      github: "https://github.com/adugna",
-      demo: "https://demo.example.com",
-      featured: false
+      github: "https://github.com/addex12",
+      demo: "https://orbalia.pythonanywhere.com",
+      featured: true
     },
     {
       id: 4,
-      title: "Blog API",
-      description: "A RESTful API for a blog application with user authentication, CRUD operations, and role-based access control.",
-      technologies: ["Node.js", "Express", "PostgreSQL", "JWT"],
-      category: "backend",
+      title: "ERP System Implementations",
+      description: "Sage 300 ERP certified consultant specializing in system implementations, customizations, and user training for various organizations.",
+      technologies: ["Sage 300 ERP", "Odoo ERP", "System Integration", "User Training"],
+      category: "erp",
       image: "/api/placeholder/400/300",
-      github: "https://github.com/adugna",
-      demo: "https://demo.example.com",
+      github: "https://github.com/addex12",
+      demo: "https://orbalia.pythonanywhere.com",
       featured: false
     },
     {
       id: 5,
-      title: "Social Media Dashboard",
-      description: "A comprehensive social media management tool with analytics, post scheduling, and multi-platform integration.",
-      technologies: ["React", "Node.js", "MongoDB", "Chart.js"],
-      category: "fullstack",
+      title: "Data Analytics & MLOps Projects",
+      description: "Advanced data science and machine learning operations projects, currently pursuing MSc in Data Science at Addis Ababa University.",
+      technologies: ["Python", "Machine Learning", "Data Analytics", "MLOps"],
+      category: "analytics",
       image: "/api/placeholder/400/300",
-      github: "https://github.com/adugna",
-      demo: "https://demo.example.com",
-      featured: true
+      github: "https://github.com/addex12",
+      demo: "https://orbalia.pythonanywhere.com",
+      featured: false
     },
     {
       id: 6,
-      title: "Portfolio Website",
-      description: "A responsive portfolio website showcasing projects and skills with smooth animations and modern design.",
-      technologies: ["React", "CSS3", "JavaScript", "GitHub Pages"],
-      category: "frontend",
+      title: "Cybersecurity Assessment & Implementation",
+      description: "Comprehensive cybersecurity assessments and implementations across various organizations, certified in Google Cybersecurity Professional program.",
+      technologies: ["Cybersecurity", "Risk Assessment", "Network Security", "Security Audits"],
+      category: "security",
       image: "/api/placeholder/400/300",
-      github: "https://github.com/adugna",
-      demo: "https://demo.example.com",
+      github: "https://github.com/addex12",
+      demo: "https://orbalia.pythonanywhere.com",
       featured: false
     }
   ];
@@ -78,9 +78,11 @@ const Projects = () => {
 
   const filters = [
     { key: 'all', label: 'All Projects' },
-    { key: 'frontend', label: 'Frontend' },
-    { key: 'backend', label: 'Backend' },
-    { key: 'fullstack', label: 'Full Stack' }
+    { key: 'management', label: 'IT Management' },
+    { key: 'erp', label: 'ERP Systems' },
+    { key: 'security', label: 'Cybersecurity' },
+    { key: 'analytics', label: 'Data Analytics' },
+    { key: 'education', label: 'Education' }
   ];
 
   return (

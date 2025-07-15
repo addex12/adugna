@@ -6,14 +6,14 @@ const Hero = () => {
       <div className="hero-content">
         <div className="hero-text">
           <h1 className="hero-title">
-            Hi, I'm <span className="highlight">Adugna</span>
+            Hi, I'm <span className="highlight">Adugna Gizaw Sutuma</span>
           </h1>
           <p className="hero-subtitle">
-            Full-Stack Developer & Problem Solver
+            IT Manager | Sage 300 ERP Certified Consultant
           </p>
           <p className="hero-description">
-            I create beautiful, functional, and user-friendly applications using modern technologies.
-            Passionate about clean code and innovative solutions.
+            Experienced IT Manager with 9+ years of expertise in cybersecurity, data analytics, and MLOps. 
+            Passionate about innovation, teaching, and building IT talent while driving digital transformation.
           </p>
           <div className="hero-buttons">
             <a href="#contact" className="btn btn-primary">Get In Touch</a>

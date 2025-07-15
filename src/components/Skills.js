@@ -3,33 +3,33 @@ import React from 'react';
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Frontend Development",
+      title: "IT Management & Leadership",
       skills: [
-        { name: "React.js", level: 90 },
-        { name: "JavaScript", level: 85 },
-        { name: "HTML/CSS", level: 95 },
-        { name: "TypeScript", level: 80 },
-        { name: "Vue.js", level: 75 }
+        { name: "IT Infrastructure", level: 95 },
+        { name: "Team Leadership", level: 90 },
+        { name: "Project Management", level: 85 },
+        { name: "Strategic Planning", level: 88 },
+        { name: "Digital Transformation", level: 85 }
       ]
     },
     {
-      title: "Backend Development",
+      title: "ERP & Systems",
       skills: [
-        { name: "Node.js", level: 85 },
-        { name: "Python", level: 80 },
-        { name: "Express.js", level: 85 },
-        { name: "MongoDB", level: 75 },
-        { name: "PostgreSQL", level: 80 }
+        { name: "Sage 300 ERP", level: 95 },
+        { name: "Odoo ERP", level: 85 },
+        { name: "Server Management", level: 90 },
+        { name: "Network Security", level: 88 },
+        { name: "Database Management", level: 85 }
       ]
     },
     {
-      title: "Tools & Technologies",
+      title: "Cybersecurity & Data Analytics",
       skills: [
-        { name: "Git", level: 90 },
-        { name: "Docker", level: 70 },
-        { name: "AWS", level: 65 },
-        { name: "Webpack", level: 75 },
-        { name: "Jest", level: 80 }
+        { name: "Cybersecurity", level: 90 },
+        { name: "Data Analytics", level: 85 },
+        { name: "MLOps", level: 80 },
+        { name: "Cloud Solutions", level: 85 },
+        { name: "Risk Assessment", level: 88 }
       ]
     }
   ];
@@ -68,24 +68,24 @@ const Skills = () => {
         
         <div className="skills-summary">
           <div className="summary-item">
-            <div className="summary-icon">🚀</div>
-            <h4>Fast Development</h4>
-            <p>Quick turnaround time for projects without compromising quality</p>
+            <div className="summary-icon">�</div>
+            <h4>Cybersecurity Expert</h4>
+            <p>Google Cybersecurity Professional certified with expertise in network security and risk management</p>
           </div>
           <div className="summary-item">
-            <div className="summary-icon">🎨</div>
-            <h4>Creative Solutions</h4>
-            <p>Innovative approaches to complex problems with modern design</p>
+            <div className="summary-icon">📊</div>
+            <h4>Data Analytics & MLOps</h4>
+            <p>Advanced skills in data science and machine learning operations for business intelligence</p>
           </div>
           <div className="summary-item">
-            <div className="summary-icon">📱</div>
-            <h4>Responsive Design</h4>
-            <p>Mobile-first approach ensuring great user experience on all devices</p>
+            <div className="summary-icon">⚙️</div>
+            <h4>ERP Systems Specialist</h4>
+            <p>Certified Sage 300 ERP consultant with experience in Odoo and system implementations</p>
           </div>
           <div className="summary-item">
-            <div className="summary-icon">⚡</div>
-            <h4>Performance Focused</h4>
-            <p>Optimized code and best practices for fast loading applications</p>
+            <div className="summary-icon">🎓</div>
+            <h4>Technical Educator</h4>
+            <p>Passionate about teaching and building IT talent with 200+ students trained</p>
           </div>
         </div>
       </div>
