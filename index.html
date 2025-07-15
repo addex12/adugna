@@ -3,98 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World - Adugna Portfolio</title>
+    <title>Test Page - Adugna</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            padding: 50px;
+            background: #f0f0f0;
+            text-align: center;
         }
         .container {
-            text-align: center;
-            background: rgba(255, 255, 255, 0.1);
-            padding: 50px;
-            border-radius: 15px;
-            backdrop-filter: blur(10px);
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
         h1 {
-            font-size: 3em;
+            color: #333;
+            font-size: 2.5em;
             margin-bottom: 20px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
         p {
-            font-size: 1.5em;
-            margin-bottom: 30px;
-        }
-        .info {
+            color: #666;
             font-size: 1.2em;
-            margin: 10px 0;
+            line-height: 1.6;
         }
-        .btn {
-            display: inline-block;
-            padding: 15px 30px;
-            background: rgba(255, 255, 255, 0.2);
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-            margin: 10px;
-            transition: all 0.3s ease;
-            border: 2px solid rgba(255, 255, 255, 0.3);
-        }
-        .btn:hover {
-            background: rgba(255, 255, 255, 0.3);
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-        }
-        .timestamp {
-            font-size: 0.9em;
-            margin-top: 30px;
-            opacity: 0.8;
+        .success {
+            color: #28a745;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Hello World! 👋</h1>
-        <p>Welcome to Adugna Gizaw Sutuma's Portfolio</p>
-        
-        <div class="info">IT Manager | Sage 300 ERP Certified Consultant</div>
-        <div class="info">📧 gizawadugna@gmail.com</div>
-        <div class="info">📱 +251 911144168</div>
-        <div class="info">📍 Addis Ababa, Ethiopia</div>
-        
-        <div style="margin-top: 30px;">
-            <a href="https://www.linkedin.com/in/eleganceict" class="btn" target="_blank">LinkedIn</a>
-            <a href="https://orbalia.pythonanywhere.com" class="btn" target="_blank">Website</a>
-            <a href="https://www.credly.com/users/adugnagizaw" class="btn" target="_blank">Credly</a>
-        </div>
-        
-        <div class="timestamp">
-            Last updated: <span id="timestamp"></span>
-        </div>
+        <h1>Test Page</h1>
+        <p class="success">✅ GitHub Pages is working!</p>
+        <p>Site: https://addex12.github.io/adugna</p>
+        <p>This is a simple test page for Adugna's portfolio website.</p>
+        <p>If you can see this, the deployment is successful.</p>
     </div>
-    
-    <script>
-        // Add current timestamp
-        document.getElementById('timestamp').textContent = new Date().toLocaleString();
-        
-        // Add some interactive effects
-        document.querySelectorAll('.btn').forEach(btn => {
-            btn.addEventListener('mouseenter', function() {
-                this.style.transform = 'translateY(-3px) scale(1.05)';
-            });
-            
-            btn.addEventListener('mouseleave', function() {
-                this.style.transform = 'translateY(0) scale(1)';
-            });
-        });
-    </script>
 </body>
 </html>
