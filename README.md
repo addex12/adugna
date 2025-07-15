@@ -117,9 +117,11 @@ Update the following components to modify content:
 ## 📧 Contact
 
 **Adugna Gizaw Sutuma**
-- Email: addisu.gizaw@gmail.com
-- Phone: +251911525070
-- LinkedIn: [https://www.linkedin.com/in/addex12](https://www.linkedin.com/in/addex12)
+- Email: gizawadugna@gmail.com
+- Phone: +251 911144168
+- LinkedIn: [https://www.linkedin.com/in/eleganceict](https://www.linkedin.com/in/eleganceict)
+- Website: [https://orbalia.pythonanywhere.com](https://orbalia.pythonanywhere.com)
+- Credly: [https://www.credly.com/users/adugnagizaw](https://www.credly.com/users/adugnagizaw)
 - Location: Addis Ababa, Ethiopia
 
 ## 📄 License
