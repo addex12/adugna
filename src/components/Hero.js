@@ -18,11 +18,12 @@ const Hero = () => {
           <div className="hero-buttons">
             <a href="#contact" className="btn btn-primary">Get In Touch</a>
             <a href="#projects" className="btn btn-secondary">View My Work</a>
+            <a href="/Adugna_Gizaw_Sutuma_CV.txt" download className="btn btn-outline">Download CV</a>
           </div>
         </div>
         <div className="hero-image">
           <div className="profile-image">
-            <img src="/profile-photo.svg" alt="Adugna Gizaw Sutuma" className="profile-img" />
+            <img src="/profile-photo.jpg" alt="Adugna Gizaw Sutuma" className="profile-img" />
           </div>
         </div>
       </div>
